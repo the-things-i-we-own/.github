@@ -1,0 +1,29 @@
+{
+  "title" : "ORG",
+  "description" : "ものごと を カテゴリー・タイプ などで 整理して記録する",
+  "author" : "creative-community.space",
+  "email" : "pehu@creative-community.space",
+  "type" : "website",
+  "twitter" : "@pe_hu_",
+  "card" : "summary_large_image",
+  "src" : "img/card.png",
+  "icon" : "img/icon.png",
+
+  "links" : [
+    {
+      "name" : "↩︎",
+      "title" : "creative-community.space",
+      "url" : "https://creative-community.space/"
+    },
+    {
+      "name" : "GitHub",
+      "title" : "The Things I (We) Own",
+      "url" : "https://github.com/the-things-i-we-own"
+    },
+    {
+      "name" : "Are.na",
+      "title" : "Index of ORG",
+      "url" : "https://www.are.na/cc-group/index-of-org"
+    }
+  ]
+}
