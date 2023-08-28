@@ -1,0 +1,173 @@
+#log,
+#log * {
+  box-sizing: border-box;
+}
+
+#log ul li.hidden {
+  display: none;
+}
+
+a {
+  color: inherit;
+  font-size: 111%;
+  text-decoration: none;
+  margin: 0 0.5rem 0.5rem 0;
+}
+
+b {
+  font-size: 125%;
+}
+
+i {
+  margin: 0 1rem 0 0;
+}
+
+aside p {
+  line-height: 175%;
+  padding: 0 0.5rem;
+}
+
+aside p a {
+  font-weight: 900;
+}
+
+#log u {
+  font-size: 75%;
+}
+
+#log ul,
+#log aside,
+#log aside p:not(#description) {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+#log ul {
+  padding: 0.25rem;
+  margin: 0;
+  list-style: none;
+  list-style-position: inside;
+}
+
+#log ul li {
+  flex: 1 300px;
+  margin: 1rem 0;
+}
+
+#log ul li p {
+  clear: both;
+  padding: 0.5rem;
+  margin: 0;
+  width: 100%;
+}
+
+a,
+#log ul li u {
+  padding: 0.25rem;
+}
+
+#log ul li u {
+  border: solid 1px;
+  border-radius: 0.25rem;
+  display: block;
+  float: right;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 0.25rem;
+}
+
+#log aside {
+  border-top: solid 1px;
+}
+
+#log aside #description {
+  flex: 1 100%;
+}
+
+#log aside p:not(#description) {
+  border: 1px solid;
+  margin: 0;
+  margin-top: -1px;
+  margin-left: -1px;
+}
+
+#log aside #click,
+#log aside #timer,
+#log aside #visit,
+#log aside #collection,
+#log aside #length {
+  flex: 1 200px;
+}
+
+#log aside #color,
+#log aside #bgColor {
+  flex: 1 250px;
+}
+
+#log aside #fontFamily,
+#log aside #lastModified {
+  flex: 1 400px;
+}
+
+@media screen and (max-width: 550px) {
+  a {
+    margin: 0 1.5vw 1.5vw 0;
+  }
+
+  i {
+    margin: 0 2.5vw 0 0;
+  }
+
+  aside p {
+    padding: 0 1vw;
+  }
+
+  #log ul {
+    padding: 0.5vw;
+  }
+
+  #log ul li {
+    margin: 2vw 0;
+  }
+
+  #log ul li p {
+    padding: 1vw;
+  }
+
+  a,
+  #log ul li u {
+    padding: 0.75vw;
+  }
+
+  #log ul li u {
+    border: solid 0.075vw;
+    border-radius: 1vw;
+    margin: 0.75vw;
+  }
+
+  #log aside {
+    border-top: solid 0.25vw;
+  }
+
+  #log aside p:not(#description) {
+    border: solid 0.25vw;
+    margin-top: -0.25vw;
+    margin-left: -0.25vw;
+  }
+
+  #log aside #click,
+  #log aside #timer,
+  #log aside #collection,
+  #log aside #length,
+  #log aside #color,
+  #log aside #bgColor {
+    flex: 1 50%;
+  }
+
+  #log aside #visit,
+  #log aside #fontFamily,
+  #log aside #lastModified {
+    flex: 1 100%;
+  }
+}
