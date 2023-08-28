@@ -6,8 +6,8 @@
   "type" : "website",
   "twitter" : "@pe_hu_",
   "card" : "summary_large_image",
-  "src" : "img/card.png",
-  "icon" : "img/icon.png",
+  "src" : "profile/card.png",
+  "icon" : "profile/icon.png",
 
   "links" : [
     {
