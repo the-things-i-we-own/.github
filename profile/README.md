@@ -1,5 +1,7 @@
 ## Hi there 👋
 
+![The Things I (We) Own](icon.png "icon.png")
+
 <!--
 
 **Here are some ideas to get you started:**
