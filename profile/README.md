@@ -1,4 +1,5 @@
-# 所有するもの を カテゴリー・状態 ごとに 整理して記録する
+# The Things I (We) Own
+所有するもの を カテゴリー・状態 ごとに 整理して記録する
 
 ![The Things I (We) Own](icon.png "icon.png")
 
