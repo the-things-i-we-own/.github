@@ -2,6 +2,7 @@
 所有するもの を カテゴリー・状態 ごとに 整理して記録する
 
 ![The Things I (We) Own](https://raw.githubusercontent.com/the-things-i-we-own/.github/main/profile/icon.png)
+[このページに、私（わたしたち）が所有するもの を 用途・入手経路 ごとに 整理して記録します。](https://the-things-i-we-own.github.io/)
 
 <!--
 
