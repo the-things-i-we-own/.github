@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+
+  <!--meta-->
+  <meta content="website" property="og:type">
+  <title>ORG</title>
+  <meta content="ORG" property="og:title">
+  <meta content="項目を選択すると、これまでに作成したものごとを整理して記録するウェブページ・影響を受けたウェブサイトが表示されます。" name="description">
+  <meta content="項目を選択すると、これまでに作成したものごとを整理して記録するウェブページ・影響を受けたウェブサイトが表示されます。" name="og:description">
+  <meta content="creative-community.space" name="author">
+  <meta content="pehu@creative-community.space" name="reply-to">
+
+  <!--meta for Twitter-->
+  <meta content="summary_large_image" name="twitter:card">
+  <meta content="https://creative-community.space/org/" property="og:url">
+  <meta content="https://creative-community.space/org/profile/card.png" property="og:image">
+  <meta content="https://creative-community.space/org/profile/card.png" name="twitter:image:src">
+
+  <link rel="icon" href="profile/icon.png">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="index.css">
+  <script src="index.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/org.js"></script>
+  <script src="js/counter.js"></script>
+  <script src="js/collection.js"></script>
+  <script src="js/colors.js"></script>
+
+  <script id="org">
+    let result_txt = "Websites"
+
+    let categories = {
+      'all': 'I (We)',
+      'weare': 'Created',
+      'inspirated': 'Inspirated by',
+    }
+
+    let type = {
+      'all': 'All Type',
+      'bookmark': 'Bookmarks',
+      'list': 'Collections',
+      'form': 'Web Forms',
+      'website': 'Web Sites',
+    }
+
+    document.addEventListener('readystatechange', event => {
+      if (event.target.readyState === 'interactive') {
+        select(categories, 'categories')
+        select(type, 'type')
+        indexJSON('index.json')
+        counter()
+        collectionHTML()
+      } else if (event.target.readyState === 'complete') {
+        randomRGB()
+      }
+    });
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@0;1&display=swap" rel="stylesheet">
+</head>
+
+<body onLoad="timer()">
+
+  <main id="main">
+    <details open>
+      <summary id="result"><b id="title"></b></summary>
+      <p id="description"></p>
+      <nav id="filter"></nav>
+    </details>
+    <ul id="things"></ul>
+  </main>
+
+  <main id="readme" hidden></main>
+
+  <footer>
+    <h1>This is The Collection of Websites that I (We) createed or inspirated</h1>
+    <p class="medium">
+      Author
+      <b id="author"></b>
+    </p>
+    <p class="medium">
+      Email
+      <a id="email"></a>
+    </p>
+    <p id="lastModified" class="medium">
+      <u>Last Modified</u>
+      <time></time>
+    </p>
+  </footer>
+  
+  <input id="changeMain" type="button" onclick="changeMain()" value="?" />
+</body>
+
+</html>

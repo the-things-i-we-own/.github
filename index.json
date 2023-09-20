@@ -1,29 +1,36 @@
 {
-  "title" : "ORG",
-  "description" : "ものごと を カテゴリー・タイプ などで 整理して記録する",
-  "author" : "creative-community.space",
-  "email" : "pehu@creative-community.space",
-  "type" : "website",
-  "twitter" : "@pe_hu_",
-  "card" : "summary_large_image",
-  "src" : "profile/card.png",
-  "icon" : "profile/icon.png",
-
-  "links" : [
+  "things": [
     {
-      "name" : "↩︎",
-      "title" : "creative-community.space",
-      "url" : "https://creative-community.space/"
+      "categories": "weare",
+      "type": "form",
+      "title": "自分の気持ちを知る・表す",
+      "by": "/sign/",
+      "description": "毎日の気持ちに合う 色と記号 を集める オンライン・コミュニケーションツール",
+      "url": "/sign/"
     },
     {
-      "name" : "GitHub",
-      "title" : "The Things I (We) Own",
-      "url" : "https://github.com/the-things-i-we-own"
+      "categories": "inspirated",
+      "type": "bookmark",
+      "title": "Gossip's Web",
+      "by": "Elliott Cost",
+      "description": "the directory of handmade webpages",
+      "url": "https://gossipsweb.net/"
     },
     {
-      "name" : "Are.na",
-      "title" : "Index of ORG",
-      "url" : "https://www.are.na/cc-group/index-of-org"
+      "categories": "inspirated",
+      "type": "form",
+      "title": "Gossip's Café",
+      "by": "Elliott Cost",
+      "description": "the cafe is open daily from 8am to 11pm. please join us.",
+      "url": "https://gossips.cafe/"
+    },
+    {
+      "categories": "weare",
+      "type": "bookmark",
+      "title": "ORG",
+      "by": "You Are Here",
+      "description": "これまでに作成したものごとを整理して記録するウェブページ・影響を受けたウェブサイトなど",
+      "url": "#"
     }
   ]
 }

@@ -1,9 +1,4 @@
 @font-face {
-  font-family: "ipag";
-  src: url("https://creative-community.space/ver/font/ipag.ttc");
-}
-
-@font-face {
   font-family: 'Times Now';
   src: url('font/TimesNow-SemiLight.eot');
   src: local('Times Now SemiLight'), local('TimesNow-SemiLight'),
@@ -15,19 +10,24 @@
   font-style: normal;
 }
 
-body {
-  font-family: "Arial Narrow", "Yu Gothic", Arial, sans-serif;
+footer a,
+footer b,
+footer time,
+footer small {
+  font-family: 'Xanh Mono', monospace;
+  font-weight: 600;
 }
 
-#log li p u,
-main nav {
-  font-family: "ipag", monospace;
+h1,
+#things li u,
+#things li small,
+footer p {
+  font-family: "Arial Narrow", "Yu Gothic", Arial, sans-serif;
 }
 
 #result,
 #filter select,
-#log li p a,
-#log li p b {
+#things li a {
   font-family: 'Times Now', 'Times New Roman', Times, serif;
   font-stretch: condensed;
   font-variant: common-ligatures tabular-nums;
@@ -36,31 +36,39 @@ main nav {
   word-spacing: -.1ch;
 }
 
-#filter,
-#main aside {
-  background-color: #fff;
+#main,
+h1 {
+  background: #fff;
+}
+
+#description {
   color: #000;
 }
 
-#log li p a {
+#things li a {
+  border: solid 1px;
+  padding: 0.25rem;
   font-size: 125%;
+  line-height: 125%;
+  text-decoration: none;
 }
 
-.list,
-#readme {
-  font-size: 111%;
+#things li p {
+  display: flex;
+  align-items: start;
+  flex-flow: wrap;
+  justify-content: space-between;
 }
 
-hr {
-  margin: 1rem;
+#things li u {
+  border: solid 1px;
+  border-radius: 0.25rem;
+  font-size: 90%;
+  padding: 0.25rem;
+  text-decoration: none;
 }
 
-@media screen and (max-width: 550px) {
-  .list {
-    font-size: 125%;
-  }
-
-  hr {
-    margin: 2.5vw;
-  }
+#things li p {
+  margin-bottom: 0.5rem;
+  width: 100%;
 }
