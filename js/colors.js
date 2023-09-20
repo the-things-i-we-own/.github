@@ -28,7 +28,7 @@ function randomRGB() {
     `
     footer.appendChild(thisBGColor)
 
-    const colorAll = document.querySelectorAll('#result, select');
+    const colorAll = document.querySelectorAll('summary, select');
     for (const colorItem of colorAll) {
         colorItem.style.color = random255();
     }

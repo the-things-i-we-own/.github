@@ -13,6 +13,8 @@ function select(arr, name) {
 }
 
 window.addEventListener("load", () => {
+  let result = document.querySelector("#result")
+
   // ****** for all select ******
   let filter = document.querySelectorAll("#filter select");
   for (let i of filter) {
@@ -30,6 +32,7 @@ window.addEventListener("load", () => {
           // *** set hidden class ***
           if (value && value !== 'all' && value !== item_data) {
             ii.hidden = true;
+            result.innerText = targets.length - document.querySelectorAll('#things li[hidden]').length
           }
         }
       }

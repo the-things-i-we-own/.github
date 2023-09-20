@@ -5,17 +5,26 @@
 * head要素内に メタデータ等を記述
 * script id="org" に 絞り込み機能を設定
 
-## [index.json](index.json)
-ものごと の 詳細を記述
+## [index.js](profile/index.js) と　[index.json](profile/index.json)
+* function allTheThings(obj) に 生成する要素の内容を記述
+* JSON に データを追加
+
 ```
 {
-    "org": "___",
+    "categories": "___",
+    "type": "___",
     "title": "___",
     "by": "___",
     "description": "___",
     "url": "___"
 }
 ```
+
+## [index.css](profile/index.css)
+* ページを独自にスタイリング
+
+## [README.md](profile/README.md)
+* ? をクリックすると表示されるテキストを記述
 
 ***
 
