@@ -24,20 +24,18 @@ footer p {
   margin: 0;
 }
 
+#readme {
+  font-size: 125%;
+}
+
 input[type="button"],
 summary,
 select {
   appearance : none;
   background: transparent;
   border: none;
+  color: #000;
   outline: none;
-  outline: none;
-}
-
-input[type="button"] {
-  border-radius: 50%;
-  padding: 0.175rem 0.75rem;
-  transition: 1s;
 }
 
 #filter select {
@@ -46,7 +44,7 @@ input[type="button"] {
   margin: 0 0.5rem 0.5rem 0;
 }
 
-input[type="button"] {
+#changeMain {
   font-size: 200%;
 }
 
@@ -61,7 +59,7 @@ h1 {
 }
 
 #filter select {
-  font-size: 100%;
+  font-size: 111%;
 }
 
 #things {
@@ -88,8 +86,8 @@ summary:hover {
 
 #things {
   display: grid;
-  grid-gap: 0.5rem 0;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 0 0.25rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 #things li {
@@ -97,9 +95,7 @@ summary:hover {
   overflow: hidden;
 }
 
-footer,
-footer h1,
-footer p {
+footer {
   border-top: 1px solid;
   border-bottom: 1px solid;
 }
@@ -141,7 +137,10 @@ footer a {
   position: fixed;
   bottom: 0;
   right: 0;
+  border-radius: 50%;
+  padding: 0.175rem 0.75rem;
   margin: 0.25rem;
+  transition: 1s;
 }
 
 @media screen and (max-width: 600px) {

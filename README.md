@@ -10,14 +10,16 @@
 * JSON に データを追加
 
 ```
-{
-    "categories": "___",
-    "type": "___",
-    "title": "___",
-    "by": "___",
-    "description": "___",
-    "url": "___"
-}
+    {
+      "categories": "___",
+      "type": "___",
+      "title": "___",
+      "by": "___",
+      "description": "___",
+      "url": "___",
+      "target": "_blank"
+    }
+
 ```
 
 ## [index.css](profile/index.css)

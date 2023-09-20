@@ -1,20 +1,301 @@
 {
   "things": [
     {
+      "categories": "inspirated",
+      "type": "list",
+      "title": "bagel reviews",
+      "by": "Alex and Masha",
+      "description": "Alex and Masha run down bagel shops and give their on-the-spot reviews",
+      "url": "https://bagel.reviews/",
+      "target": "_blank"
+    },
+    {
+      "categories": "inspirated",
+      "type": "bookmark",
+      "title": "Outdoor Index",
+      "by": "@donicaida",
+      "description": "A personal archive of completed hikes.",
+      "url": "https://outdoor-index.net",
+      "target": "_blank"
+    },
+    {
+      "categories": "inspirated",
+      "type": "website",
+      "title": "Furlan Beeli",
+      "by": "Giulia Furlan and Mario Beeli",
+      "description": "Since the very beginning, Furlan Beeli has been committed to explore both the physical and ideational potential of architecture",
+      "url": "https://www.furlanbeeli.com/",
+      "target": "_blank"
+    },
+    {
+      "categories": "inspirated",
+      "type": "website",
+      "title": "the-documents.org",
+      "by": "De Cleene De Cleene",
+      "description": "is an online platform, collecting, describing, presenting and generating documents of all sorts. It documents documents.",
+      "url": "https://the-documents.org/",
+      "target": "_blank"
+    },
+    {
+      "categories": "inspirated",
+      "type": "website",
+      "title": "Another Graphic",
+      "by": "Studio Studio",
+      "description": "Archive of graphic design focused on typographic treatment",
+      "url": "https://anothergraphic.org/",
+      "target": "_blank"
+    },
+    {
+      "categories": "inspirated",
+      "type": "list",
+      "title": "Living Glossary",
+      "by": "attempt",
+      "description": "Living Glossary for a Diffractive Publishing Practice",
+      "url": "http://glossary.attempt.press/",
+      "target": "_blank"
+    },
+    {
+      "categories": "inspirated",
+      "type": "list",
+      "title": "wab.com",
+      "by": "Antoine Santo Aka NoNameNo",
+      "description": "HERE IS AN NICE PLACE FOR A NICE SCOLLTEXT NO ??? HEHHEHE I DUNNO WHAT TO WRITE HERE !!! NEED HELP.....",
+      "url": "http://wab.com/",
+      "target": "_blank"
+    },
+    {
+      "categories": "inspirated",
+      "type": "form",
+      "title": "Fuse.kiwi",
+      "by": "contact@fuse.kiwi",
+      "description": "growing collection of creative reference and digital entertainment. New links are posted weekly.",
+      "url": "https://www.fuse.kiwi/",
+      "target": "_blank"
+    },
+    {
+      "categories": "inspirated",
+      "type": "bookmark",
+      "title": "Skale.zip",
+      "by": "HARALD.PETER.STREAM",
+      "description": "a collection of websites and files gathered from an old hosting server, active around 1997-2003.",
+      "url": "https://skale.peter.stream/",
+      "target": "_blank"
+    },
+    {
+      "categories": "inspirated",
+      "type": "bookmark",
+      "title": "collected",
+      "by": "Jonas Pelzer",
+      "description": "new web design inspiration on every visit",
+      "url": "_https://collected.li/",
+      "target": "_blank"
+    },
+    {
+      "categories": "inspirated",
+      "type": "website",
+      "title": "SICK INTERNET",
+      "by": "Mac Andre Arboleda",
+      "description": "SICK INTERNET | Mac Andre Arboleda",
+      "url": "https://sickinternet.me/",
+      "target": "_blank"
+    },
+    {
+      "categories": "weare",
+      "type": "form",
+      "title": "Speech to Text to Text to Speech",
+      "by": "/hello/",
+      "description": "時間帯・二十四節気ごとに投稿を記録する掲示板",
+      "url": "/hello/",
+      "target": "_blank"
+    },
+    {
+      "categories": "inspirated",
+      "type": "form",
+      "title": "Circle. SLAM JAM & 2050+",
+      "by": "SLAM JAM",
+      "description": "AN ONGOING DIGITAL THINK-TANK ON MULTICULTURALISM, SPATIAL JUSTICE, AND THE CHANGED CLIMATIC REGIME.",
+      "url": "https://circle.slamjam.com/",
+      "target": "_blank"
+    },
+    {
+      "categories": "inspirated",
+      "type": "form",
+      "title": "Unguilty Pleasures",
+      "by": "Jeremiasz Rzenno",
+      "description": "This is a space1 to share and document micro-disobedience2 at work",
+      "url": "https://unguiltypleasures.xyz/",
+      "target": "_blank"
+    },
+    {
+      "categories": "inspirated",
+      "type": "form",
+      "title": "afilasi",
+      "by": "æfilæsi",
+      "description": "a collective digital library focusing on the accessibility of extracted texts and fact-based notes about the othered",
+      "url": "http://afila.si/",
+      "target": "_blank"
+    },
+    {
+      "categories": "inspirated",
+      "type": "website",
+      "title": "Cloud Index",
+      "by": "Liebermann Kiepe Reddemann",
+      "description": "a growing online archive that collects and presents cloud imagery of fossil fuel combustion sites.",
+      "url": "https://cloud-index.cloud/",
+      "target": "_blank"
+    },
+    {
+      "categories": "inspirated",
+      "type": "bookmark",
+      "title": "FreeFontLibrary",
+      "by": "Luuse",
+      "description": "a tool to manage and display a font collection on the web.",
+      "url": "https://typotheque.luuse.fun/",
+      "target": "_blank"
+    },
+    {
+      "categories": "inspirated",
+      "type": "list",
+      "title": "Unicodes",
+      "by": "Jesse Tane",
+      "description": "Browse all of the unicodes",
+      "url": "https://unicodes.jessetane.com/",
+      "target": "_blank"
+    },
+    {
+      "categories": "inspirated",
+      "type": "website",
+      "title": "&what;",
+      "by": "NDP Software and Andrew J. Peterson",
+      "description": "Discover Unicode Character Entities & Symbols",
+      "url": "https://www.amp-what.com/",
+      "target": "_blank"
+    },
+    {
+      "categories": "inspirated",
+      "type": "website",
+      "title": "SYMBL",
+      "by": "(◕‿◕)",
+      "description": "記号、絵文字、象形文字、文字、アルファベット、そして全てのUnicode",
+      "url": "https://symbl.cc/",
+      "target": "_blank"
+    },
+    {
+      "categories": "inspirated",
+      "type": "bookmark",
+      "title": "Anekdote",
+      "by": "Pinn",
+      "description": "directory celebrating great, independent businesses",
+      "url": "https://anekdote.co/",
+      "target": "_blank"
+    },
+    {
+      "categories": "inspirated",
+      "type": "bookmark",
+      "title": "NYC Paid Creative Internships",
+      "by": "Barron",
+      "description": "This is a list of companies & studios in New York City",
+      "url": "https://anekdote.co/",
+      "target": "_blank"
+    },
+    {
+      "categories": "inspirated",
+      "type": "list",
+      "title": "Very Good Films",
+      "by": "Oak Park Studio",
+      "description": "An online film catalogue by film lovers",
+      "url": "https://verygoodfilms.co/",
+      "target": "_blank"
+    },
+    {
+      "categories": "inspirated",
+      "type": "bookmark",
+      "title": "Links to useful sites",
+      "by": "Sparta 3",
+      "description": "Created by human, made by machine",
+      "url": "https://whatthe.link/",
+      "target": "_blank"
+    },
+    {
+      "categories": "inspirated",
+      "type": "bookmark",
+      "title": "Wwwooh",
+      "by": "Étienne Ozeray",
+      "description": "Show me hot fresh stuffs â™",
+      "url": "http://wwwahou.etienneozeray.fr/",
+      "target": "_blank"
+    },
+    {
+      "categories": "inspirated",
+      "type": "form",
+      "title": "A Website Is A Room",
+      "by": "Nancy Wu",
+      "description": "a live feed of websites that people are provoked to share and may contain some of these qualities (or entirely different ones).",
+      "url": "https://a-website-is-a-room.net/",
+      "target": "_blank"
+    },
+    {
       "categories": "weare",
       "type": "form",
       "title": "自分の気持ちを知る・表す",
       "by": "/sign/",
       "description": "毎日の気持ちに合う 色と記号 を集める オンライン・コミュニケーションツール",
-      "url": "/sign/"
+      "url": "/sign/",
+      "target": "_blank"
+    },
+    {
+      "categories": "inspirated",
+      "type": "list",
+      "title": "If you knew me would you love me?",
+      "by": "Chia",
+      "description": "Do you believe that you could love anyone if you got to know them enough? (Yes or No)",
+      "url": "https://ifyouknewmewouldyoulove.me/",
+      "target": "_blank"
+    },
+    {
+      "categories": "weare",
+      "type": "list",
+      "title": "The Things I (We) Own",
+      "by": "ORG",
+      "description": "私（わたしたち）が所有するもの を カテゴリー・状態 ごとに 整理して記録する",
+      "url": "https://the-things-i-we-own.github.io/",
+      "target": "_blank"
+    },
+    {
+      "categories": "inspirated",
+      "type": "list",
+      "title": "The things I own",
+      "by": "Natalia Panzer",
+      "description": "From November 2014 to November 2016, I kept a rolling log of everything I owned",
+      "url": "https://npanzer.com/okcook/the-things-i-own-2.html",
+      "target": "_blank"
     },
     {
       "categories": "inspirated",
       "type": "bookmark",
+      "title": "Terra",
+      "by": "uelen",
+      "description": "cool sites, straight from earth",
+      "url": "https://terra.finzdani.net/",
+      "target": "_blank"
+    },
+    {
+      "categories": "weare",
+      "type": "bookmark",
+      "title": "Font Book",
+      "by": "Very Gois",
+      "description": "This is The Collection of My Favorit Fonts.",
+      "url": "https://vg.pe.hu/fonts/",
+      "target": "_blank"
+    },
+    {
+      "categories": "inspirated",
+      "type": "website",
       "title": "Gossip's Web",
       "by": "Elliott Cost",
       "description": "the directory of handmade webpages",
-      "url": "https://gossipsweb.net/"
+      "url": "https://gossipsweb.net/",
+      "target": "_blank"
     },
     {
       "categories": "inspirated",
@@ -22,7 +303,8 @@
       "title": "Gossip's Café",
       "by": "Elliott Cost",
       "description": "the cafe is open daily from 8am to 11pm. please join us.",
-      "url": "https://gossips.cafe/"
+      "url": "https://gossips.cafe/",
+      "target": "_blank"
     },
     {
       "categories": "weare",
@@ -30,7 +312,8 @@
       "title": "ORG",
       "by": "You Are Here",
       "description": "これまでに作成したものごとを整理して記録するウェブページ・影響を受けたウェブサイトなど",
-      "url": "#"
+      "url": "#",
+      "target": "_top"
     }
   ]
 }

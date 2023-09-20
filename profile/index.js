@@ -19,7 +19,7 @@ async function indexJSON(requestURL) {
       thingLi.hidden = true;
       thingLi.innerHTML = `
       <p>
-      <a href="${thing.url}">${thing.title}</a>
+      <a href="${thing.url}" target="${thing.target}">${thing.title}</a>
       <u>${thing.by}</u>
       </p>
       <small>${thing.description}</small>
