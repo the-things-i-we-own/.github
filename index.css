@@ -46,10 +46,11 @@ h1 {
 }
 
 #things li a {
-  border: solid 1px;
+  background: #000;
+  color: #fff;
   padding: 0.25rem;
   font-size: 125%;
-  line-height: 125%;
+  line-height: 100%;
   text-decoration: none;
 }
 
@@ -68,7 +69,8 @@ h1 {
   text-decoration: none;
 }
 
-#things li p {
-  margin-bottom: 0.5rem;
+#things li p,
+#things li small {
+  margin: 0.5rem 0;
   width: 100%;
 }

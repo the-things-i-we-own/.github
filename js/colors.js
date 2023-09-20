@@ -23,7 +23,7 @@ function randomRGB() {
     const thisBGColor = document.createElement("p")
     thisBGColor.id = "bgColor"
     thisBGColor.innerHTML = `
-    <u>Background Color</u>
+    <u>Background</u>
     <small></small>
     `
     footer.appendChild(thisBGColor)

@@ -61,7 +61,7 @@ h1 {
 }
 
 #things {
-  font-size: 90%;
+  font-size: 95%;
 }
 
 #description {
@@ -84,7 +84,7 @@ summary:hover {
 
 #things {
   display: grid;
-  grid-gap: 0.5rem;
+  grid-gap: 0.5rem 0;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 

@@ -20,6 +20,6 @@
 ***
 
 #### その他
-* [counter.js](/js/counter.js) ページ上でのクリック数、閲覧時間、このページにアクセスした回数をカウント
+* [counter.js](/js/counter.js) ページ上でのクリック数、閲覧時間をカウント
 * [collection.js](/js/collection.js) ページ上にあるHTML要素名とその個数、要素に適用されているフォント名を取得
-* [random.js](/js/random.js) 指定した要素の色・背景色をランダム生成
+* [colors.js](/js/colors.js) 指定した要素の色・背景色をランダム生成し表示

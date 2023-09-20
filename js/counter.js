@@ -24,16 +24,6 @@ function counter() {
     <time>00:00:00</time>
     `
     footer.appendChild(sessionTime)
-
-    const youVisit = document.createElement("p")
-    youVisit.id = "visit"
-    youVisit.className = "medium"
-    youVisit.innerHTML = `
-    <u>You Visit</u>
-    <b>0</b>
-    <u>Times here</u>
-    `
-    footer.appendChild(youVisit)
 }
 
 // 初期化
@@ -62,21 +52,3 @@ function timer() {
     document.querySelector("#timer time").innerText = timer;
     setTimeout("timer()", 1000);
 }
-
-const storage = localStorage;
-let here = storage.getItem('youVisited');
-
-//データの値を判定
-if (here === null) {
-  //データが何もない場合「1」を代入
-  here = 1;
-} else {
-  //データがある場合「1」をプラス
-  here++;
-}
-
-//setItemメソッドでlocalStorageにデータを保存
-storage.setItem('youVisited', here);
-
-// HTML に データの値を出力
-document.querySelector("#visit b").innerText = here
