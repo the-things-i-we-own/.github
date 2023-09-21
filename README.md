@@ -6,7 +6,7 @@
 * script id="org" に 絞り込み機能を設定
 
 ## [index.js](profile/index.js) と　[index.json](profile/index.json)
-* function allTheThings(obj) に 生成する要素の内容を記述
+* function allTheThings(obj) に JSONkから生成する要素を記述
 * JSON に データを追加
 
 ```
