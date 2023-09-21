@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'Times Now';
-  src: url('../font/TimesNow-SemiLight.eot');
+  src: url('font/TimesNow-SemiLight.eot');
   src: local('Times Now SemiLight'), local('TimesNow-SemiLight'),
-  url("../font/TimesNow-SemiLight.eot?#iefix") format('embedded-opentype'),
-  url("../font/TimesNow-SemiLight.ttf") format("truetype"),
-  url("../font/TimesNow-SemiLight.woff") format("woff"),
-  url("../font/TimesNow-SemiLight.woff2") format("woff2");
+  url("font/TimesNow-SemiLight.eot?#iefix") format('embedded-opentype'),
+  url("font/TimesNow-SemiLight.ttf") format("truetype"),
+  url("font/TimesNow-SemiLight.woff") format("woff"),
+  url("font/TimesNow-SemiLight.woff2") format("woff2");
   font-weight: 300;
   font-style: normal;
 }
