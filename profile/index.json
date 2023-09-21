@@ -11,7 +11,7 @@
     },
     {
       "categories": "inspirated",
-      "type": "bookmark",
+      "type": "website",
       "title": "Outdoor Index",
       "by": "@donicaida",
       "description": "A personal archive of completed hikes.",
@@ -56,7 +56,7 @@
     },
     {
       "categories": "inspirated",
-      "type": "list",
+      "type": "website",
       "title": "wab.com",
       "by": "Antoine Santo Aka NoNameNo",
       "description": "HERE IS AN NICE PLACE FOR A NICE SCOLLTEXT NO ??? HEHHEHE I DUNNO WHAT TO WRITE HERE !!! NEED HELP.....",
@@ -106,7 +106,7 @@
       "by": "/hello/",
       "description": "時間帯・二十四節気ごとに投稿を記録する掲示板",
       "url": "/hello/",
-      "target": "_blank"
+      "target": "_top"
     },
     {
       "categories": "inspirated",
@@ -241,7 +241,7 @@
       "by": "/sign/",
       "description": "毎日の気持ちに合う 色と記号 を集める オンライン・コミュニケーションツール",
       "url": "/sign/",
-      "target": "_blank"
+      "target": "_top"
     },
     {
       "categories": "inspirated",
@@ -259,7 +259,7 @@
       "by": "ORG",
       "description": "私（わたしたち）が所有するもの を カテゴリー・状態 ごとに 整理して記録する",
       "url": "https://the-things-i-we-own.github.io/",
-      "target": "_blank"
+      "target": "_top"
     },
     {
       "categories": "inspirated",
