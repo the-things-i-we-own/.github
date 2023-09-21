@@ -33,7 +33,7 @@ function randomRGB() {
         colorItem.style.color = random255();
     }
 
-    const bgAll = document.querySelectorAll('body, #things, #things li a, #readme, h1, footer p, #changeMain');
+    const bgAll = document.querySelectorAll('body, #things, #things li p a, #readme, h1, footer p, #changeMain');
     for (const bgItem of bgAll) {
         bgItem.style.color = "#fff";
         bgItem.style.backgroundColor = random255();
