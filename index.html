@@ -29,6 +29,7 @@
   <script src="js/org.js"></script>
   <script src="js/counter.js"></script>
   <script src="js/collection.js"></script>
+  <script src="js/colors"></script>
 
   <script id="org">
     let categories = {
@@ -55,9 +56,13 @@
 
         // ページ内容を生成
         indexJSON('profile/index.json')
-      } else if (event.target.readyState === 'complete') {
+        
+        // カウンターとHTMLコレクションを表示
         counter()
         collectionHTML()
+      } else if (event.target.readyState === 'complete') {
+        // 文字色・背景色をランダム生成
+        randomRGB()
       }
     });
   </script>
