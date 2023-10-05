@@ -5,8 +5,8 @@
 * head要素内に メタデータ等を記述
 * script id="org" に 絞り込み機能を設定
 
-## [index.js](profile/index.js) と　[index.json](profile/index.json)
-* function allTheThings(obj) に JSONkから生成する要素を記述
+## [index.js](profile/index.js) と [index.json](profile/index.json)
+* function allTheThings(obj) に JSONから生成する要素を記述
 * JSON に データを追加
 
 ```
