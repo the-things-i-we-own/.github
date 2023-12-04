@@ -22,14 +22,15 @@
   <meta content="https://creative-community.space/org/profile/card.png" name="twitter:image:src">
 
   <link rel="icon" href="https://creative-community.space/ver/icon/favicon.png">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="profile/index.css">
+  <link rel="stylesheet" href="profile/font/index.css">
+  <link rel="stylesheet" href="style.css">
+
   <script src="profile/index.js"></script>
-  <script src="js/script.js"></script>
-  <script src="js/org.js"></script>
-  <script src="js/counter.js"></script>
-  <script src="js/collection.js"></script>
-  <script src="js/colors.js"></script>
+  <script src="profile/js/script.js"></script>
+  <script src="profile/js/org.js"></script>
+  <script src="profile/js/counter.js"></script>
+  <script src="profile/js/collection.js"></script>
+  <script src="profile/js/colors.js"></script>
 
   <script id="org">
     let categories = {
@@ -53,8 +54,8 @@
         select(type, 'type')
 
         // ページ内容を生成
-        indexJSON('profile/index.json')
-        
+        indexJSON('index.json')
+
         // カウンターとHTMLコレクションを表示
         counter()
         collectionHTML()
@@ -94,7 +95,7 @@
       <time></time>
     </p>
   </footer>
-  
+
   <input id="changeMain" type="button" onclick="changeMain()" value="?" />
 </body>
 
