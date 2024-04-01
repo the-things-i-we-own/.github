@@ -7,26 +7,27 @@
 
 ## [index.js](js/index.js) と [index.json](index.json)
 * function allTheThings(obj) に JSONから生成する要素を記述
-* JSON に データを追加
+* JSON に ページに表示するものごとを追加
 
 ```
-    {
-      "categories": "___",
-      "type": "___",
-      "title": "___",
-      "by": "___",
-      "description": "___",
-      "url": "___",
-      "target": "_blank"
-    }
+{
+  "categories": "___",
+  "type": "___",
+  "title": "___",
+  "by": "___",
+  "description": "___",
+  "url": "___",
+  "target": "_blank"
+}
 
 ```
 
-## [index.css](index.css)
-* ページを独自にスタイリング
+## [style.css](css/style.css)
+## [font.css](css/font.css)
+* ページをスタイリング／フォントを指定
 
 ## [README.md](README.md)
-* ? をクリックすると表示されるテキストを記述
+* ? をクリックすると表示されるテキスト
 
 ***
 
