@@ -2,7 +2,7 @@
 
 document.addEventListener("DOMContentLoaded", () => {
   headToBody()
-  readmeMD('profile/README.md', '#readme')
+  readmeMD('README.md', '#readme')
 });
 
 function headToBody() {
