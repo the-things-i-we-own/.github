@@ -112,7 +112,7 @@
       "categories": "weare",
       "type": "form",
       "title": "Speech to Text to Text to Speech",
-      "by": "/hello/",
+      "by": "Hello",
       "description": "時間帯・二十四節気ごとに投稿を記録する掲示板",
       "url": "/hello/",
       "target": "_top"
@@ -247,7 +247,7 @@
       "categories": "weare",
       "type": "form",
       "title": "自分の気持ちを知る・表す",
-      "by": "/sign/",
+      "by": "Sign",
       "description": "毎日の気持ちに合う 色と記号 を集める オンライン・コミュニケーションツール",
       "url": "/sign/",
       "target": "_top"
