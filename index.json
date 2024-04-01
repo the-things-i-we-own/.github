@@ -1,6 +1,15 @@
 {
   "things": [
     {
+      "categories": "weare",
+      "type": "website",
+      "title": "The Life of __ | at the Age of **",
+      "by": "WHOIS",
+      "description": "〓〓の年齢 〇〇歳のころの出来事",
+      "url": "https://whois.creative-community.space/",
+      "target": "_top"
+    },
+    {
       "categories": "inspirated",
       "type": "list",
       "title": "bagel reviews",
@@ -277,15 +286,6 @@
       "by": "uelen",
       "description": "cool sites, straight from earth",
       "url": "https://terra.finzdani.net/",
-      "target": "_blank"
-    },
-    {
-      "categories": "weare",
-      "type": "bookmark",
-      "title": "Font Book",
-      "by": "Very Gois",
-      "description": "This is The Collection of My Favorit Fonts.",
-      "url": "https://vg.pe.hu/fonts/",
       "target": "_blank"
     },
     {
