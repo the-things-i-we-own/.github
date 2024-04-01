@@ -25,7 +25,7 @@
 ## [index.css](index.css)
 * ページを独自にスタイリング
 
-## [README.md](profile/README.md)
+## [README.md](README.md)
 * ? をクリックすると表示されるテキストを記述
 
 ***
