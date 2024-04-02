@@ -11,6 +11,24 @@
     },
     {
       "categories": "inspirated",
+      "type": "bookmark",
+      "title": "Diagram Website",
+      "by": "Kristoffer Tjalve and Elliott Cost",
+      "description": "An internet map",
+      "url": "https://diagram.website/",
+      "target": "_blank"
+    },
+    {
+      "categories": "inspirated",
+      "type": "form",
+      "title": "Site of Sites",
+      "by": "Wix.com Inc.",
+      "description": "your go-to destination for web design inspiration. Join our growing collection and submit your site today.",
+      "url": "https://www.siteofsites.co/",
+      "target": "_blank"
+    },
+    {
+      "categories": "inspirated",
       "type": "list",
       "title": "bagel reviews",
       "by": "Alex and Masha",
