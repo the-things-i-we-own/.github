@@ -13,12 +13,12 @@
 h1,
 #things li u,
 #things li small,
+#readme,
 footer {
   font-family: "Arial Narrow", "Yu Gothic", Arial, sans-serif;
 }
 
 summary,
-#readme,
 #filter select,
 #things li a {
   font-family: 'Times Now', 'Times New Roman', Times, serif;
