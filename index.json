@@ -11,6 +11,24 @@
     },
     {
       "categories": "inspirated",
+      "type": "website",
+      "title": "auケータイ図鑑｜おもいでタイムライン",
+      "by": "KDDI CORPORATION",
+      "description": "懐かしいケータイが、忘れていた”なにか”を呼び起こしてくれる、もしかしたら、そんなことがあるかもしれません。ここは、そんな”ケータイとおもいで”の図鑑です。",
+      "url": "https://time-space.kddi.com/ketaizukan/",
+      "target": "_blank"
+    },
+    {
+      "categories": "inspirated",
+      "type": "website",
+      "title": "Mobile Phone Museum",
+      "by": "Ben Wood",
+      "description": "We are a not-for-profit entity created to safeguard the rich history and design diversity of mobile devices which have been launched over the last four decades.",
+      "url": "https://www.mobilephonemuseum.com/catalogue",
+      "target": "_blank"
+    },
+    {
+      "categories": "inspirated",
       "type": "bookmark",
       "title": "Diagram Website",
       "by": "Kristoffer Tjalve and Elliott Cost",
