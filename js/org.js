@@ -1,38 +1,30 @@
 'use strict'
 
-function select(arr, name) {
-  const selectORG = document.createElement('select')
-  selectORG.setAttribute('name', name)
-  document.querySelector('#filter').appendChild(selectORG)
-  Object.entries(arr).forEach(eachORG => {
-    const optionORG = document.createElement('option')
-    optionORG.value = eachORG[0]
-    optionORG.innerText = eachORG[1]
-    selectORG.appendChild(optionORG)
-  })
-}
+window.onload = function () {
+    const about = document.querySelector('#about');
+    let label = document.querySelectorAll('#org label');
+    for (let i of label) {
+        const aboutORG = document.createElement('li');
+        aboutORG.setAttribute("data-org", i.getAttribute('for'));
+        aboutORG.innerHTML = `
+        <b>${i.textContent}</b>
+        <small>${i.getAttribute('data-txt')}</small>
+        `;
+        about.appendChild(aboutORG);
+    };
 
-window.addEventListener("load", () => {
-  // ****** for all select ******
-  let filter = document.querySelectorAll("#filter select");
-  for (let i of filter) {
-    i.addEventListener('change', () => {
-      // *** for each target ***
-      let targets = document.querySelectorAll("#things li")
-      for (let ii of targets) {
-        // *** delete hidden ***
-        ii.hidden = false;
-        // *** check target every select ***
-        for (let iii of filter) {
-          let value = iii.value
-          let name = iii.getAttribute('name')
-          let item_data = ii.getAttribute('data-' + name)
-          // *** set hidden class ***
-          if (value && value !== 'all' && value !== item_data) {
-            ii.hidden = true;
-          }
-        }
-      }
-    });
-  }
-});
+    let filter = document.querySelectorAll('#org input[type="radio"]');
+    for (let ii of filter) {
+        ii.addEventListener('change', () => {
+            let value = ii.value;
+            let targets = document.querySelectorAll("main ul li");
+            for (let iii of targets) {
+                iii.hidden = false;
+                let item_data = iii.getAttribute('data-org');
+                if (value && value !== 'all' && value !== item_data) {
+                    iii.hidden = true;
+                };
+            };
+        }, false)
+    };
+};

@@ -2,102 +2,89 @@
 <html lang="ja">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="format-detection" content="telephone=no">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
 
-  <!--meta-->
-  <meta content="website" property="og:type">
-  <title>ORG | creative-community.space</title>
-  <meta content="ORG" property="og:title">
-  <meta content="項目を選択すると、これまでに作成したウェブページ・影響を受けたウェブサイトへのリンクが表示されます。" name="description">
-  <meta content="項目を選択すると、これまでに作成したウェブページ・影響を受けたウェブサイトへのリンクが表示されます。" name="og:description">
+    <link rel="icon" href="profile/icon.png">
+    <meta content="The Things I (We) Own" name="author">
+    <meta content="e@mail" name="reply-to">
 
-  <meta content="creative-community.space" name="author">
-  <meta content="pehu@creative-community.space" name="reply-to">
+    <!-- Meta Tags -->
+    <title>The Things I (We) Own</title>
+    <meta property="og:title" content="The Things I (We) Own">
+    <meta name="description" content="このページに、私（わたしたち）が所有するもの を 用途・入手経路 ごとに 整理して記録します。">
+    <meta property="og:description" content="このページに、私（わたしたち）が所有するもの を 用途・入手経路 ごとに 整理して記録します。">
 
-  <!--meta for Twitter-->
-  <meta content="summary_large_image" name="twitter:card">
-  <meta content="https://creative-community.space/org/" property="og:url">
-  <meta content="https://creative-community.space/org/card.png" property="og:image">
-  <meta content="https://creative-community.space/org/card.png" name="twitter:image:src">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="/">
+    <meta property="og:image" content="profile/cover.png">
 
-  <link rel="icon" href="https://creative-community.space/ver/icon/favicon.png">
-  <link rel="stylesheet" href="css/font.css">
-  <link rel="stylesheet" href="css/style.css">
+    <!--
+    | summary | 1:1 | 144×144 | 4096×4096 | 5MB以下 |
+    | summary_large_image | 2:1 | 300×157 | 4096×4096 | 5MB以下 |
+    -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="profile/cover.png">
 
-  <script src="js/index.js"></script>
-  <script src="js/script.js"></script>
-  <script src="js/org.js"></script>
-  <script src="js/counter.js"></script>
-  <script src="js/collection.js"></script>
-  <script src="js/colors.js"></script>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css?v=0.00">
+    <link rel="stylesheet" type="text/css" href="css/org.css?v=0.00">
+    <link rel="stylesheet" type="text/css" href="css/cover.css?v=0.00">
+    <link rel="stylesheet" type="text/css" href="css/index.css?v=0.00">
 
-  <script id="org">
-    let categories = {
-      'all': 'I (We)',
-      'weare': 'Created',
-      'inspirated': 'Inspirated by',
-    }
-
-    let type = {
-      'all': 'All Type',
-      'bookmark': 'Bookmarks',
-      'list': 'Collections',
-      'form': 'Web Forms',
-      'website': 'Web Sites',
-    }
-
-    document.addEventListener('readystatechange', event => {
-      if (event.target.readyState === 'interactive') {
-        // 絞り込みカテゴリを設定
-        select(categories, 'categories')
-        select(type, 'type')
-
-        // ページ内容を生成
-        indexJSON('index.json')
-
-        // カウンターとHTMLコレクションを表示
-        counter()
-        collectionHTML()
-      } else if (event.target.readyState === 'complete') {
-        // 文字色・背景色をランダム生成
-        randomRGB()
-      }
-    });
-  </script>
+    <script src="js/index.js?v=0.00"></script>
+    <script src="js/org.js?v=0.00"></script>
+    <script src="js/cover.js?v=0.00"></script>
+    <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded", function () {
+            headToBody();
+            readmeMD('README.md', '#readme');
+        });
+    </script>
 </head>
 
-<body onLoad="timer()">
+<body>
+    <header>
+        <h1 id="title">The Things I (We) Own</h1>
+        <h2 id="description" onclick="changeMain()">所有するもの を カテゴリー・状態 ごとに 整理して記録する</h2>
+        <nav id="org">
+            <input id="all" value="all" type="radio" name="org" checked onclick="changeMain()">
+            <label for="all" data-txt="所有するものを絞り込む項目について">Index</label>
 
-  <main id="main">
-    <details open>
-      <summary><b id="title"></b></summary>
-      <p id="description"></p>
-      <nav id="filter"></nav>
-    </details>
-    <ul id="things"></ul>
-  </main>
-
-  <main id="readme" hidden></main>
-
-  <footer>
-    <h1 id="result">This is The Collection of Websites that I (We) createed or inspirated</h1>
-    <p class="medium">
-      Author
-      <b id="author"></b>
-    </p>
-    <p class="medium">
-      Email
-      <a id="email"></a>
-    </p>
-    <p id="lastModified" class="medium">
-      <u>Last Modified</u>
-      <time></time>
-    </p>
-  </footer>
-
-  <input id="changeMain" type="button" onclick="changeMain()" value="?" />
+            <input id="bought" value="bought" type="radio" name="org">
+            <label for="bought" data-txt="購入したもの、外注して制作したもの、など">bought</label>
+            <input id="gift" value="gift" type="radio" name="org">
+            <label for="gift" data-txt="人たちから頂いたもの、など">gift</label>
+            <input id="free" value="free" type="radio" name="org">
+            <label for="free" data-txt="拾ったもの、無料で配布されていたもの、など">free or found</label>
+            <input id="made" value="made" type="radio" name="org">
+            <label for="made" data-txt="作ったもの、出来たもの、など">made</label>
+            <input id="collaborations" value="collaborations" type="radio" name="org">
+            <label for="collaborations" data-txt="誰と一緒に作ったもの">collaborations</label>
+            <input id="other" value="other" type="radio" name="org">
+            <label for="other" data-txt="資料や書類など、上記のカテゴリーに当てはまらないもの">other</label>
+            <input id="sale" value="sale" type="radio" name="org">
+            <label for="sale" data-txt="売りたいもの、など">$$$ FOR SALE $$$</label>
+        </nav>
+    </header>
+    <main id="cover" onclick="changeMain()">
+        <h3 id="readme"></h3>
+        <ul id="img"></ul>
+    </main>
+    <main id="things" hidden>
+        <ul id="about"></ul>
+    </main>
+    <footer>
+        <p>
+            <span>Author</span> <b id="author"></b><br />
+            <span>Email</span> <a id="email"></a>
+        </p>
+        <p id="lastModified">
+            <span>Last Modified</span> <time></time><br />
+            <span>Links</span>
+            <a href="https://github.com/the-things-i-we-own/" target="_blank">GitHub</a>
+        </p>
+    </footer>
 </body>
 
 </html>
