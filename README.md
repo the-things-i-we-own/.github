@@ -39,7 +39,9 @@
 }
 ```
 
-[cover.json](json/cover.json)
+***
+
+[cover.json](profile/cover.json)
 * ページトップに表示する画像データを追加
 
 ```
@@ -58,7 +60,7 @@ xxx-large | xx-large | x-large | large | medium | small | x-small | xx-small | x
 それぞれ 50% が 中央 | x 0% が 左端 : 100% が 右端 | y 0% が 上端 100% が 下端
 
 
-* [cover.js](css/cover.js) JSONからカバー画像を生成
+* [cover.js](js/cover.js) JSONからカバー画像を生成
 * [cover.css](css/cover.css) カバー画像をスタイリングするCSS
 
 ***
